@@ -1,5 +1,4 @@
 import { useSelector } from 'react-redux'
-import Header from './Components/Header'
 import Settings from './Components/Settings'
 import Question from './Components/Question'
 import FinalScreen from './Components/FinalScreen'
@@ -24,7 +23,6 @@ function App() {
   return (
 
     <div className="App">
-      <Header />
       <div className="app-container">{component}</div>
       
     </div>
